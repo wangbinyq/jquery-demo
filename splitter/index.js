@@ -6,7 +6,8 @@
             var self = $(this);
             function empty() {}
             options = options || {
-                minWidth: 20
+                minWidth: 20,
+                defaultWidth: 200,
             };
             if(!options.onStartDrag) {
                 options.onStartDrag = empty;
@@ -32,7 +33,7 @@
                 right_panel.addClass('splitter_panel __splitter_panel_right');
                 left_panel.after(_splitter);
 
-                onPosition(self.width()/2);
+                onPosition(options.defaultWidth);
             })();
 
             function onPosition(x) {

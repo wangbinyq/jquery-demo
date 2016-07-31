@@ -12,19 +12,23 @@
         <script type="text/javascript" src="../vue.js"></script>
     </head>
     <body>
-        <div class="splitter">
+        <div class="splitter splitter1">
             <div class="left">Left</div>
             <div class="right">Right</div>
         </div>
-
-        <div class="splitter">
+        <div class="splitter splitter2">
             <div class="left">Left</div>
             <div class="right">Right</div>
         </div>
 
         <script type="text/javascript">
             (function(){
-                $('.splitter').splitter();
+                $('.splitter1').splitter({
+                    defaultWidth: 600
+                });
+                $('.splitter2').splitter({
+                    defaultWidth: 200
+                });
             })()
         </script>
     </body>
