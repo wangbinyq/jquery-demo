@@ -1,4 +1,4 @@
-# Q
+# jQuery 插件基础
 
 > 翻译 [How to Create a Basic Plugin](https://learn.jquery.com/plugins/basic-plugin-creation/)
 
