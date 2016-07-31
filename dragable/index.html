@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drag</title>
+        <script type="text/javascript" src="../jquery.min.js">
+
+        </script>
+        <script type="text/javascript" src="./index.js">
+
+        </script>
+
+        <style media="screen">
+            .container {
+                position: relative;
+                width: 500px;
+                margin: 0 auto;
+            }
+            .dragable {
+                width: 100px;
+                height: 100px;
+                position: absolute;;
+            }
+            .red {
+                background-color: #EF3e32;
+            }
+            .blue {
+                background-color: #73A4EF;
+                left: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="dragable red">drag me</div>
+            <div class="dragable blue"> drag me</div>
+        </div>
+        <script type="text/javascript">
+            $('.dragable').dragable();
+        </script>
+    </body>
+</html>

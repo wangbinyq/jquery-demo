@@ -1,0 +1,38 @@
+.__splitter_container {
+    position: relative;
+}
+
+.__splitter_container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.__splitter_container::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.__splitter {
+    width: 4px;
+    cursor: col-resize;
+    height: 100%;
+    position: absolute;
+    background: grey;
+}
+
+.splitter_panel {
+    overflow: auto;
+    height: 100%;
+}
+
+.__splitter_panel_left {
+    position: absolute;
+    left: 0;
+}
+
+.__splitter_panel_right {
+    position: absolute;
+    right: 0;
+}

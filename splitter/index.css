@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.splitter {
+    width: 800px;
+    height: 400px;
+    background: #EF3e32;
+    margin: 0 auto;
+}
