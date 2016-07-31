@@ -137,4 +137,4 @@ $( "div" ).colorfy({
 ```
 
 ## 例子
-一些 jQuery 插件的例子
+一些 jQuery 插件的例子 https://445141126.github.io/jquery-demo/
