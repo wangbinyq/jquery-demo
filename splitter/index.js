@@ -5,10 +5,10 @@
         return this.each(function() {
             var self = $(this);
             function empty() {}
-            options = $.extend(options, {
+            options = $.extend({
                 minWidth: 20,
                 defaultWidth: 200
-            });
+            }, options);
             if(!options.onStartDrag) {
                 options.onStartDrag = empty;
             }
