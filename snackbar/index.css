@@ -1,0 +1,22 @@
+._snackbar {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: -48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    z-index: 2900;
+    margin: auto;
+    max-width: 568px;
+    min-width: 288px;
+    background-color: rgba(0, 0, 0, 0.870588);
+    transition: all 400ms;
+    border-radius: 2px;
+    text-align: center;
+}
+
+._snackbar.snackbarshow {
+    bottom: 0;
+}
